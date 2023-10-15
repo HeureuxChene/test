@@ -1,0 +1,513 @@
+{
+    "comte-de-cheurlin": {
+        "vignette": "comte-de-cheurlin-vignette.jpg",
+        "titre": "COMTE DE CHEURLIN",
+        "soustitre": "DOMAINE DE CHAMPAGNE",
+        "description": "Le prestigieux domaine de champagne Thomas Cheurlin nous a chargé de définir l’identité visuelle de sa nouvelle marque haut de gamme «Comte de Cheurlin» en créant des outils de communication adaptés au secteur du luxe dans le but de favoriser son développement en France et à l’international.",
+        "details": {
+            "0": "Re-design de logo",
+            "1": "Mise en place des codes textuels et graphiques de l’identité visuelle",
+            "2": "Design des étiquettes (et contre-étiquette) des champagnes, indication des méthodes d’impression",
+            "3": "Design de la plaquette commerciale (A4 horizontale deux volets)",
+            "4": "Design des dossiers de presse (5 dossiers de presse au format A4 vertical de 16 pages)",
+            "5": "Design des annonces presse (Forbes, Maison & Jardin, etc.)",
+            "6": "Création de Mockups de bouteilles personnalisés",
+            "7": "Création de visuels photo & vidéos pour les réseaux sociaux",
+            "8": "Design des cartes de visites (Recto-verso 85x54mm)",
+            "9": "Design des packagings pour bouteilles",
+            "10": "Design de Roll-up pour évènements"
+        },
+        "images": {
+            "0": "creation-design-etiquette-gamme-comte-de-cheurlin.jpg",
+            "1": "design-etiquette-gamme-comte-de-cheurlin.jpg",
+            "2": "creation-design-logo-comte-de-cheurlin.jpg",
+            "3": "design-dossier-presse-comte-de-cheurlin.jpg",
+            "4": "design-plaquette-commerciale-comte-de-cheurlin.jpg",
+            "5": "design-annonce-presse-comte-de-cheurlin.jpg",
+            "6": "design-annonce-presse-comte-de-cheurlin-deux.jpg",
+            "7": "design-etiquette-packaging-sleeve-comte-de-cheurlin.jpg",
+            "8": "design-dossier-presse-dubai-comte-de-cheurlin.jpg"
+        },
+        "filtre": {
+            "1": "",
+            "2": "",
+            "4": ""
+        }
+    },
+    "i-see": {
+        "vignette": "i-see-vignette.jpg",
+        "titre": "I-SEE - AIRBORNE OBSERVATORY",
+        "soustitre": "SURVEILLANCE TERRESTRE",
+        "description": "La société I-SEE nous a choisi afin de définir l’identité visuelle et les codes de son nouveau concept innovant, des avions et des drones équipés de technologies de pointes permettant d’assurer tout types de missions.",
+        "details": {
+            "0": "Design de logo",
+            "1": "Mise en place des codes textuels et graphiques de l’identité visuelle",
+            "2": "Création de visuels photo & vidéos pour les supports de communication",
+            "3": "Création de Mockups personnalisés",
+            "4": "Design de site internet vitrine (10 onglets)",
+            "5": "Création et mise en page de PowerPoint de présentation",
+            "6": "Design de la plaquette commerciale (A4 verticale deux volets)",
+            "7": "Design de Roll-up pour salon",
+            "8": "Design des cartes de visite (Recto-verso 85x54mm)"
+        },
+        "images": {
+            "0": "design-avion-i-see.jpg",
+            "1": "design-creation-logo-i-see.jpg",
+            "2": "creation-design-site-web-i-see.jpg",
+            "3": "creation-design-plaquette-commerciale-i-see.jpg",
+            "4": "creation-design-carte-visite-i-see.jpg",
+            "5": "creation-design-kakemono-i-see.jpg"
+        },
+        "filtre": {
+            "1": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "esprit-nature": {
+        "vignette": "esprit-nature-vignette.jpg",
+        "titre": "L'ESPRIT NATURE",
+        "soustitre": "FABRICANT DE BOUGIES ARTISANALES",
+        "description": "L’esprit Nature, boutique spécialisée dans la fabrication de bougie artisanale, a fait appel à nos services pour mettre en place une création graphique cohérente et esthétique selon les codes du bien-être de sa gamme de bougies.",
+        "details": {
+            "0": "Re-design de logo",
+            "1": "Mise en place des codes graphiques de l’identité visuelle",
+            "2": "Design des étiquettes de la gamme « L'Atelier de la Cire » ",
+            "3": "Créations de mockups personnalisés"
+        },
+        "images": {
+            "0": "creation-design-etiquette-esprit-nature.jpg"
+        },
+        "filtre": {
+            "2": ""
+        }
+    },
+    "bioc3": {
+        "vignette": "bioc3-vignette.jpg",
+        "titre": "BIOC3",
+        "soustitre": "STARTUP DE BIOCHIMIE",
+        "description": "La startup de Biochimie BIOC3 nous a confié la création de son identité visuelle et de ses outils de communication interne/externe dans le but de développer la vente de ses produits et d’obtenir davantage de fonds de la part des investisseurs.",
+        "details": {
+            "0": "Design de logo",
+            "1": "Mise en place des codes textuels et graphiques de l’identité visuelle",
+            "2": "Design des cartes de visite (Recto-verso 85x54mm), indication des méthodes d’impression",
+            "3": "Designs modifiables sous Word des têtes de lettre, factures et courriers de l’entreprise",
+            "4": "Design du site internet marchand",
+            "5": "Création et mise en page de PowerPoint de présentation",
+            "6": "Création d’une vidéo de présentation destinée à la recherche d’investissement (Motion design & Incrustation fond vert)"
+        },
+        "images": {
+            "0": "identite-visuelle-charte-graphique-bioc3.jpg",
+            "1": "creation-design-logo-bioc3.jpg",
+            "2": "creation-design-papeterie-bioc3.jpg"
+        },
+        "filtre": {
+            "1": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "rotisserie": {
+        "vignette": "rotisserie-vignette.jpg",
+        "titre": "RÔTISSERIE",
+        "soustitre": "TRAITEUR DE VOLAILLE",
+        "description": "Rôtisserie, un fast-food local de la côte d’azur et ses alentours, nous a chargé d’instaurer les codes de son identité visuelle et de mettre en place des outils performants dans le but de développer la notoriété de l’entreprise.",
+        "details": {
+            "0": "Design de logo",
+            "1": "Mise en place des codes textuels et graphiques de l’identité visuelle",
+            "2": "Design de flyer (A5 vertical deux volets)",
+            "3": "Design de flyer spéciaux pour évènements (Noël, inauguration, etc.)",
+            "4": "Designs d’affiches promotionnelles dans le cadre de campagnes d’affichage",
+            "5": "Designs d’annonces presse",
+            "6": "Création de Mockups personnalisés",
+            "7": "Création de visuels photo pour la communication & les réseaux sociaux",
+            "8": "Création d’étiquettes : Sauces (Ketchup, Barbecue, Crème de moutarde, etc.) Vins, Huile d’olive, Bières artisanales",
+            "9": "Design de packaging : Boîte pour livraison Chips",
+            "10": "Création de vidéos pour des campagnes d’affichage sur supports urbains digitaux"
+        },
+        "images": {
+            "0": "identite-visuelle-charte-graphique-rotisserie.jpg",
+            "1": "design-annonce-presse-rotisserie.jpg",
+            "2": "design-affiche-rotisserie.jpg",
+            "3": "design-creation-flyer-rotisserie.jpg"
+        },
+        "filtre": {
+            "1": "",
+            "2": "",
+            "4": ""
+        }
+    },
+    "arkopharma": {
+        "vignette": "arkopharma-vignette.jpg",
+        "titre": "ARKOPHARMA",
+        "soustitre": "LABORATOIRE PHARMACEUTIQUE",
+        "description": "Arkopharma, laboratoire pharmaceutique spécialisé dans le domaine de la phytothérapie, a fait appel à nos services pour la création des illustrations de ses packagings et l’adaptabilité de ses annonces presses dans divers magazines renommés.",
+        "details": {
+            "0": "Création des illustrations (composition de plantes) pour packaging",
+            "1": "Design du packaging Olfae",
+            "2": "Mise au format des annonces presse"
+        },
+        "images": {
+            "0": "creation-illustration-packaging-arkopharma.jpg",
+            "1": "design-packaging-arkopharma.jpg",
+            "2": "reformatage-annonce-presse-arkopharma.jpg"
+        },
+        "filtre": {
+            "2": "",
+            "4": ""
+        }
+    },
+    "arthur-de-cheurlin": {
+        "vignette": "arthur-de-cheurlin-vignette.jpg",
+        "titre": "ARTHUR DE CHEURLIN",
+        "soustitre": "DOMAINE DE CHAMPAGNE",
+        "description": "La maison de champagne Thomas Cheurlin nous a confié la création de l’identité visuelle de sa nouvelle marque «Arthur de Cheurlin» un champagne luxueux et sans alcool, destinée à un public plus large à l’international.",
+        "details": {
+            "0": "Design de l’étiquette du Champagne « Arthur de Cheurlin Blanc de Blanc », indication des méthodes d’impression",
+            "1": "Création visuelle du packaging",
+            "2": "Création de Mockups de bouteilles personnalisés",
+            "3": "Création de visuels photo pour la communication et les réseaux sociaux",
+            "4": "Design de la plaquette commerciale (A4 verticale deux volets)",
+            "5": "Design d’annonces presse"
+        },
+        "images": {
+            "0": "design-creation-etiquette-packaging-arthur-de-cheurlin.jpg",
+            "1": "design-creation-etiquette-arthur-de-cheurlin.jpg",
+            "2": "design-creation-dossier-presse-arthur-de-cheurlin.jpg",
+            "3": "design-creation-annonce-presse-arthur-de-cheurlin.jpg"
+        },
+        "filtre": {
+            "1": "",
+            "2": "",
+            "4": ""
+        }
+    },
+    "cheurlin-dangin": {
+        "vignette": "cheurlin-dangin-vignette.jpg",
+        "titre": "CHEURLIN DANGIN",
+        "soustitre": "DOMAINE DE CHAMPAGNE",
+        "description": "Le domaine de champagne Thomas Cheurlin nous a choisi pour mettre en place des outils de communication favorisant le dévéloppement à l’international de sa première marque, «Cheurlin-Dangin».",
+        "details": {
+            "0": "Designs des étiquettes (et contre-étiquette) des champagnes, indication des méthodes d’impression",
+            "1": "Création de la matière des bouteilles (bouteilles sleeves)",
+            "2": "Design des dossiers de presse (3 dossiers de presse au format A4 vertical de 16 pages)"
+        },
+        "images": {
+            "0": "creation-design-etiquette-sleeve-cheurlin-dangin.jpg",
+            "1": "creation-design-dossier-presse-cheurlin-dangin.jpg"
+        },
+        "filtre": {
+            "2": "",
+            "4": ""
+        }
+    },
+    "naturland": {
+        "vignette": "naturland-vignette.jpg",
+        "titre": "NATURLAND",
+        "soustitre": "GROUPE ARKOPHARMA - LABORATOIRE PHARMACEUTIQUE",
+        "description": "Naturland, du groupe Arkopharma, a pour vocation de développer et de commercialiser des compléments alimentaires à base de plantes, la société a fait appel à nos services pour la création des illustrations de ses packagings et la réalisation de vidéos pour son programme court «La minute phyto».",
+        "details": {
+            "0": "Création des illustrations (composition de plantes) pour packaging",
+            "1": "Création de packagings sur une base fournie",
+            "2": "Création d'un Jingle audio pour le programme « La minute Phyto »"
+        },
+        "images": {
+            "0": "design-illustration-packaging-naturland.jpg",
+            "1": "design-illustration-packaging-naturland-deux.jpg"
+        },
+        "filtre": {
+            "2": "",
+            "4": ""
+        }
+    },
+    "concept-verre": {
+        "vignette": "concept-verre-vignette.jpg",
+        "titre": "CONCEPT VERRE",
+        "soustitre": "FABRICANT DE LUMINAIRES CONTEMPORAINS",
+        "description": "Concept Verre, la société fabricante de Luminaires contemporains et luxueux, nous a confié durant 4 années consécutives la création et la mise en page de ses catalogues produits, ainsi que la retouche photographique des luminaires exposés.",
+        "details": {
+            "0": "Retouche photo des visuels de luminaires",
+            "1": "Photomontage et incrustations des luminaires dans des lieux divers et variés",
+            "2": "Création et mise en page des catalogues « Concept Verre » 2018-2020-2021 (168 pages)"
+        },
+        "images": {
+            "0": "design-catalogue-mise-en-page-concept-verre.jpg",
+            "1": "design-catalogue-mise-en-page-concept-verre-deux.jpg",
+            "2": "design-catalogue-mise-en-page-concept-verre-trois.jpg"
+        },
+        "filtre": {
+            "4": ""
+        }
+    },
+    "jarousse": {
+        "vignette": "jarrousse-vignette.jpg",
+        "titre": "JAROUSSE",
+        "soustitre": "POSTURO THÉRAPEUTE",
+        "description": "Natacha Jarousse, posturo-thérapeute de grande renommé et pilier de recherche en biomécanique et en neurosciences, s’implante en France pour y exercer son expertise. elle choisi de nous confier la création de ses outils de communication pour promouvoir «La Méthode Jarrousse».",
+        "details": {
+            "0": "Design de logo",
+            "1": "Mise en place des codes textuels et graphiques de l’identité visuelle",
+            "2": "Design de la plaquette commerciale (A4 verticale deux volets)",
+            "3": "Design des cartes de visite (Recto-verso 85x54mm)",
+            "4": "Design modifiables sous Word des têtes de lettre, factures et courriers de l’entreprise"
+        },
+        "images": {
+            "0": "creation-design-logo-jarrousse.jpg",
+            "1": "creation-design-plaquette-commerciale-jarrousse.jpg"
+        },
+        "filtre": {
+            "1": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "premiere-ligne": {
+        "vignette": "1ere-ligne-vignette.jpg",
+        "titre": "1ÈRE LIGNE",
+        "soustitre": "MARQUE DE BIÈRES ENGAGÉES",
+        "description": "En pleine crise sanitaire, Sting18 choisi de créer une marque de bière en soutien aux différents corps de métier affectés par le virus, dont une partie des bénéfices seront reversés à l’association «Sourire à la vie». Notre mission fut de créer le design des étiquettes et les outils de communication de promotion de la marque.",
+        "details": {
+            "0": "Design de logo",
+            "1": "Mise en place des codes textuels et graphiques de l’identité visuelle",
+            "2": "Designs des étiquettes de bières, indication des méthodes d’impression",
+            "3": "Design de Roll-up pour évènements",
+            "4": "Design de publicité sur fourgon",
+            "5": "Design de flyer (A5 vertical deux volets)",
+            "6": "Création de Mockups de bouteilles personnalisés",
+            "7": "Création de visuels photo"
+        },
+        "images": {
+            "0": "charte-graphique-design-etiquette-gamme-1ere-ligne.jpg",
+            "1": "creation-design-flyer-1ere-ligne.jpg",
+            "2": "creation-design-kakemono-1ere-ligne.jpg",
+            "3": "creation-design-habillage-fourgon-1ere-ligne.jpg"
+        },
+        "filtre": {
+            "1": "",
+            "2": "",
+            "4": ""
+        }
+    },
+    "fadieze": {
+        "vignette": "fadieze-vignette.jpg",
+        "titre": "FADIEZE",
+        "soustitre": "ÉVÈNEMENTIEL",
+        "description": "La société d’organisation d’évènements sur Paris, Fadieze, nous a chargé de concevoir des PowerPoint de présentation d’évènements modifiable tout en étant charté dans le but de favoriser et faciliter la recherche de partenaire pour l’entreprise.",
+        "details": {
+            "0": "Création graphique et mise en page de PowerPoint de présentation destinés au marque  « Haier » « Whirlpool » & « Miele »",
+            "1": "Photomontage & retouche photo"
+        },
+        "images": {
+            "0": "identite-visuelle-creation-powerpoint-fadieze.jpg"
+        },
+        "filtre": {
+            "4": ""
+        }
+    },
+    "intermarche": {
+        "vignette": "intermarche-vignette.jpg",
+        "titre": "INTERMARCHÉ",
+        "soustitre": "GRANDE DISTRIBUTION",
+        "description": "Intermarché, un pionnier dans le secteur de la grande distribution française, et sa franchise Intermarché Avise nous ont confié la création du flyer promotionnel «spécial vendage» dans le but de faire connaître l’évènement et y générer plus de traffics.",
+        "details": {
+            "0": "Design du flyer Intermarché Avise (A5 vertical recto-verso)"
+        },
+        "images": {
+            "0": "design-creation-intermarche-intermarche.jpg"
+        },
+        "filtre": {
+            "4": ""
+        }
+    },
+    "avia-conseil": {
+        "vignette": "avia-conseil-vignette.jpg",
+        "titre": "AVIA CONSEIL",
+        "soustitre": "CONSEILLER EN AVIATION",
+        "description": "Avia conseil nous a chargé de la refonte de son identité visuelle, ainsi que de la création de ses outils de communication et de son site internet, l’objectif était de le rendre clair et accessible auprès de ses clients, dans le respect de la charte graphique instaurée.",
+        "details": {
+            "0": "Re-Design du logo",
+            "1": "Design du site internet vitrine (9 onglets)",
+            "2": "Design des cartes de visite (Recto-verso 85x54mm)"
+        },
+        "images": {
+            "0": "creation-design-site-web-avia-conseil.jpg"
+        },
+        "filtre": {
+            "3": ""
+        }
+    },
+    "make-me-nuts": {
+        "vignette": "make-me-nuts-vignette.jpg",
+        "titre": "MAKE ME NUTS",
+        "soustitre": "VENTE DE FRUITS SECS",
+        "description": "Make Me Nuts est un détaillant de fruits secs implantée en Hongrie, l’entreprise nous a choisi afin de développer sa notoriété locale à l’aide d’affiches promotionnelles, ainsi que le design et la création de sa devanture de magasin.",
+        "details": {
+            "0": "Design de logo",
+            "1": "Mise en place des codes textuels et graphiques de l’identité visuelle",
+            "2": "Design d’affiches promotionnelles dans le cadre de campagnes d’affichage",
+            "3": "Création graphique de la devanture du magasin « Make Me Nuts »"
+        },
+        "images": {
+            "0": "creation-design-affiches-make-me-nuts.jpg",
+            "1": "creation-design-logo-make-me-nuts.jpg"
+        },
+        "filtre": {
+            "4": ""
+        }
+    },
+    "sting18": {
+        "vignette": "sting18-vignette.jpg",
+        "titre": "STING18",
+        "soustitre": "CRÉATEUR DE MARQUES DE BIÈRES ENGAGÉES",
+        "description": "Sting18, spécialisé dans la conception et la vente de marque de bière à l’échelle nationale, nous a confié l’ensemble de ses outils de communication dans le but d’en faire une refonte cohérente et esthétique, pour dévélopper la notoriété de ses produits sur le territoire français.",
+        "details": {
+            "0": "Design du packaging hexagonal pour la marque de bière « Chloroquine Dundee »",
+            "1": "Mise en place des codes textuels et graphiques de l’identité visuelle de la marque de bière « ChloroKing »",
+            "2": "Création des étiquettes de Bière artisanale et Cola artisanal de la marque « ChloroKing »",
+            "3": "Design du flyer « Chloroquine Dundee » (A5 vertical deux volets)",
+            "4": "Création de Mockups de bouteilles personnalisés",
+            "5": "Création de visuels photo",
+            "6": "Design de publicité sur fourgon",
+            "7": "Création graphique du site internet « STING18 »",
+            "8": "Design des sliders du site internet",
+            "9": "Design de la plaquette commerciale « STING18 » (A5 verticale 16 pages)",
+            "10": "Design des cartes de visite (Recto-verso 85x54mm)"
+        },
+        "images": {
+            "0": "creation-design-packaging-biere-sting18.jpg",
+            "1": "creation-design-etiquette-biere-sting18.jpg",
+            "2": "creation-design-flyer-biere-sting18.jpg",
+            "3": "creation-design-habillage-fourgon-biere-sting18.jpg",
+            "4": "creation-design-site-web-sting18.jpg",
+            "5": "creation-design-site-web-sting18-deux.jpg",
+            "6": "creation-design-site-web-sting18-trois.jpg",
+            "7": "creation-design-banniere-site-web-sting18.jpg",
+            "8": "creation-design-banniere-site-web-sting18-deux.jpg"
+        },
+        "filtre": {
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "sandrine-theillard": {
+        "vignette": "sandrine-theillard-vignette.jpg",
+        "titre": "SANDRINE THEILLARD",
+        "soustitre": "ASSISTANTE INDÉPENDANTE",
+        "description": "Sandrine Theillard, auto-entrepreneuse assistante de direction dans de multiples domaines, nous a chargé de confectionner ses outils de communication et son identité visuelle pour créer une base solide à sa futur image de marque.",
+        "details": {
+            "0": "Design de logo",
+            "1": "Mise en place des codes textuels et graphiques de l’identité visuelle",
+            "2": "Design de la fiche présentation (A4 horizontale recto-verso)",
+            "3": "Design des cartes de visite (Recto-verso 85x54mm)",
+            "4": "Designs modifiables sous Word des têtes de lettre, factures et courriers de l’entreprise"
+        },
+        "images": {
+            "0": "creation-design-logo-sandrine-theillard.jpg",
+            "1": "identite-visuelle-charte-graphique-sandrine-theillard.jpg"
+        },
+        "filtre": {
+            "4": ""
+        }
+    },
+    "itim": {
+        "vignette": "itim-vignette.jpg",
+        "titre": "ITIM",
+        "soustitre": "SERVICES INFORMATIQUES",
+        "description": "Itim, entreprise basée à Monaco et spécialisée dans l’assistance et les services informatiques, fait appel à nos services annuellement pour la création de calendriers chartés au code de l’entreprise, ainsi que la refonte de ses moyens de communication.",
+        "details": {
+            "0": "Design de logo",
+            "1": "Design des cartes de visite (Recto-verso 85x54mm)",
+            "2": "Création graphique de calendriers chartés (2020/2021/2022)"
+        },
+        "images": {
+            "0": "creation-design-carte-visite-itim.jpg",
+            "1": "creation-design-calendrier-itim.jpg"
+        },
+        "filtre": {
+            "4": ""
+        }
+    },
+    "boost-plus": {
+        "vignette": "boost-plus-vignette.jpg",
+        "titre": "BOOST+",
+        "soustitre": "ADDITIF POUR CARBURANT",
+        "description": "Boost+ est une société au concept innovant, la production d’un additif pour carburant révolutionnaire, qui nous a choisi pour créer les bases de son identité visuelle et de sa charte graphique.",
+        "details": {
+            "0": "Design du logo « Boost+ »",
+            "1": "Design du site internet vitrine (5 onglets)",
+            "2": "Design des cartes de visite (Recto-verso 85x54mm)",
+            "3": "Création graphique et mise en page de la fiche présentation de l’entreprise (A4 verticale recto-verso)"
+        },
+        "images": {
+            "0": "design-creation-site-web-boost-plus.jpg",
+            "1": "design-creation-fiche-presentation-boost-plus.jpg",
+            "2": "design-creation-carte-visite-boost-plus.jpg"
+        },
+        "filtre": {
+            "3": "",
+            "4": ""
+        }
+    },
+    "agora-des-chants": {
+        "vignette": "agora-des-chants-vignette.jpg",
+        "titre": "L'AGORA DES CHANTS",
+        "soustitre": "MAISON D’ÉDITION",
+        "description": "L’agora des chants est une maison d’édition fondé par le poête Joël Mercier, nous sommes honorés de faire partie de l’aventure en ayant confectionné le design et la mise en page de son premier recueil de poême « L’horizon a perdu sa ligne ».",
+        "details": {
+            "0": "Design de logo",
+            "1": "Design de carte de visite",
+            "2": "Création et mise en page du recueil de poème « L’horizon a perdu sa ligne »"
+        },
+        "images": {
+            "0": "design-mise-en-page-livre-agora-des-chants.jpg",
+            "1": "design-creation-logo-agora-des-chants.jpg",
+            "2": "design-creation-carte-visite-agora-des-chants.jpg"
+        },
+        "filtre": {
+            "4": ""
+        }
+    },
+    "seven-driver-riviera": {
+        "vignette": "seven-driver-riviera-vignette.jpg",
+        "titre": "SEVEN DRIVER RIVIERA",
+        "soustitre": "CHAUFFEUR PRIVÉ",
+        "description": "L’entreprise Seven Driver Riviera propose un service luxueux de chauffeur privé professionel sur Nice & ses alentours, elle nous a chargé de concevoir son identité visuelle, ainsi qu’un site permettant aux clients la prise de rendez-vous simplifié et le paiement en ligne de leurs courses.",
+        "details": {
+            "0": "Design de logo",
+            "1": "Web Design",
+            "2": "Web développement : Site internet marchand (7 pages) - Reservation et paiement en ligne",
+            "3": "SEO & Optimisation",
+            "4": "Fiche Google Business"
+        },
+        "images": {
+            "0": "webdesign-developpement-seven-driver-riviera.jpg",
+            "1": "webdesign-developpement-seven-driver-riviera-deux.jpg",
+            "2": "webdesign-developpement-seven-driver-riviera-trois.jpg",
+            "3": "design-logo-seven-driver-riviera.jpg"
+        },
+        "filtre": {
+            "1": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    "ecochar": {
+        "vignette": "ecochar-vignette.jpg",
+        "titre": "ECOCHAR",
+        "soustitre": "BIO-INNOVATIONS & AGRICULTURE",
+        "description": "Ecochar est une entreprise ayant pour but de dévélopper des projets innovants dans le secteur de l’agriculture à l’aide de Biochar, une ressource éco-responsable. Nous avons été choisi pour la création de l’identité visuelle de la société et la conception de son site internet.",
+        "details": {
+            "0": "Design de logo",
+            "1": "Web Design",
+            "2": "Web développement : Site internet vitrine one page"
+        },
+        "images": {
+            "0": "webdesign-developpement-ecochar.jpg",
+            "1": "design-logo-ecochar.jpg"
+        },
+        "filtre": {
+            "3": ""
+        }
+    }
+}

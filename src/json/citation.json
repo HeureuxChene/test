@@ -1,0 +1,46 @@
+{
+    "0":{
+        "auteur":"Johann Goethe",
+        "citation":"La naïveté est la caractéristique principale du génie."
+    },
+    "1":{
+        "auteur":"Walt Disney",
+        "citation":"Si vous pouvez le rêver, vous pouvez le faire."
+    },
+    "2":{
+        "auteur":"Henri Poincaré",
+        "citation":"C'est avec la logique que nous prouvons et avec l'intuition que nous trouvons."
+    },
+    "3":{
+        "auteur":"Friedrich Nietzsche",
+        "citation":"Deviens ce que tu es."
+    },
+    "4":{
+        "auteur":"Wilhelm Hegel",
+        "citation":"Rien de grand ne s'est accompli dans le monde sans passion."
+    },
+    "5":{
+        "auteur":"Simone de Beauvoir",
+        "citation":"J'accepte la grande aventure d'être moi."
+    },
+    "6":{
+        "auteur":" Hannah Arendt",
+        "citation":"Le pouvoir jaillit parmi les hommes quand ils agissent ensemble."
+    },
+    "7":{
+        "auteur":"Georges Brassens",
+        "citation":"La contrainte suscite l'imagination."
+    },
+    "8":{
+        "auteur":"Baruch Spinoza",
+        "citation":"Ne pas railler, ne pas déplorer, ne pas maudire, mais comprendre."
+    },
+    "9":{
+        "auteur":"Sun Tzu",
+        "citation":"C'est lorsqu'on est environné de tous les dangers qu'il n'en faut redouter aucun."
+    },
+    "10":{
+        "auteur":"Machiavel",
+        "citation":"Chacun voit ce que tu paraîs, peu perçoivent ce que tu es."
+    }
+}

@@ -1,0 +1,338 @@
+#navFondBlur {
+    display: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100vw;
+    z-index: 10;
+    color: #fff;
+    box-shadow: inset 0px 110px 50px -100px #000;
+    transition: translate .3s, background-color .3s, color .3s, box-shadow .3s ease-out;
+}
+
+.headerHover {
+    color: #000;
+    background-color: #fffc;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: none ;
+}
+
+.hiddenHeader{
+    translate: 0px -80px;
+}
+
+.nav {
+    position: relative;
+    width: fit-content;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr calc(203px/2.5) 1fr;
+    gap: 40px;
+    font-family: UniLight;
+    letter-spacing: 1px;
+}
+
+.navColumn {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+}
+
+#logoEmplacement {
+    width: 50px;
+    height: 50px;
+}
+
+#logo {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    width: calc(203px/2.5);
+    height: calc(150px/2.5);
+    translate: calc(50vw - 50% + 1px) calc(40px - 50%);
+    transition: scale .2s, fill 2s ease-out;
+}
+
+#logo:hover {
+    scale: 1.1;
+}
+
+#logoText{
+    transition: fill .2s ease-out;
+}
+
+.linkContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.link{
+    font-weight: lighter;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    height: 2px;
+    transition: width .3s, background-color .3s ease-out;
+}
+
+.linkLeft::after {
+    left: 0;
+}
+
+.linkRight::after {
+    right: 0;
+}
+
+.linkInactive::after {
+    width: 0%;
+}
+
+.linkActive::after {
+    background-color: #e30712;
+    width: 100%;
+}
+
+.linkHover::after {
+    background-color: #0059a7;
+    width: 100%;
+}
+
+.linkDropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: calc(100% + 2px);
+    width: 100%;
+    transition: opacity .2s, visibility .2s, transform .2s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.invisible {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4px);
+}
+
+.dropdownItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.dropdownItem:hover:after {
+    height: 100%;
+}
+
+.dropdownItemInactive:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 2px;
+    height: 0%;
+    background-color: #0059a7;
+    transition: height .2s ease-out;
+}
+
+.dropdownItemActive:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #e30712;
+    transition: height .2s ease-out;
+}
+
+#humburger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 60px;
+        color: #000;
+        box-shadow: none;
+    }
+
+    .navFondBlur {
+        position: fixed;
+        top: 60px;
+        display: block;
+        width: 100vw;
+        height: calc(100vh - 60px);
+        background-color: #fffc;
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        z-index: 9;
+        transition: opacity .3s, visibility .3s ease-out;
+    }
+
+    .nav {
+        position: absolute;
+        top: 60px;
+        width: 100vw;
+        height: calc(100vh - 60px);
+        display: flex;
+        flex-direction: column;
+        color: #000;
+        gap: 0px;
+        transition: opacity .3s, visibility .3s ease-out;
+    }
+
+    .navColumn {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    #logoEmplacement {
+        display: none;
+    }
+
+    #logo {
+        position: absolute;
+        cursor: pointer;
+        z-index: 1;
+        width: calc(203px/3);
+        height: calc(150px/3);
+        translate: calc(50vw - 50% + 1px) calc(30px - 50%);
+        transition: scale .2s ease-out
+    }
+
+    .linkContainer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+    }
+
+    .link::after {
+        top: 0;
+        height: 100%;
+        border: 2px solid #0000;
+        z-index: -1;
+        transition: width .3s, background-color .3s, border .3s ease-out;
+    }
+
+    .linkLeft::after {
+        left: 0;
+    }
+
+    .linkRight::after {
+        right: 0;
+    }
+
+    .linkInactive::after {
+        width: 0%;
+    }
+
+    .linkActive::after {
+        background-color: #e3071255;
+        border-top: 2px solid #e30712;
+        border-bottom: 2px solid #e30712;
+        width: 100%;
+    }
+
+    .linkHover::after {
+        background-color: #0059a755;
+        border-top: 2px solid #0059a7;
+        border-bottom: 2px solid #0059a7;
+        width: 100%;
+    }
+
+    .linkDropdown {
+        display: none;
+    }
+
+    #humburger {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        width: 74px;
+        height: 60px;
+        padding: 18px;
+        cursor: pointer;
+    }
+
+    .patteHumburger {
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        border-radius: 5px;
+        transition: .2s translate .2s, rotate .2s, .2s scale .2s, .2s opacity .2s, background-color .3s ease-out;
+    }
+
+    .patteHumburgerWhite{
+        background-color: #fff;
+    }
+
+    .patteHumburgerUn {
+        translate: 0px 11px;
+        rotate: 45deg;
+        transition: translate .2s, .2s rotate .2s ease-out;
+    }
+
+    .patteHumburgerDeux {
+        scale: 0.5;
+        opacity: 0;
+        transition: scale .2s, opacity .2s ease-out;
+    }
+
+    .patteHumburgerTrois {
+        translate: 0px -11px;
+        rotate: -45deg;
+        transition: translate .2s, .2s rotate .2s ease-out;
+    }
+
+    .visibleMobile {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .invisibleMobile {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .nav {
+        gap: 20px;
+    }
+    .link {
+        font-size: 13px;
+    }
+    .navColumn {
+        gap: 20px;
+    }
+}

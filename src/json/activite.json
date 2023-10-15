@@ -1,0 +1,38 @@
+{
+    "identite-visuelle": {
+        "titre":"IDENTITÉ",
+        "soustitre":"VISUELLE",
+        "domaine":"design",
+        "filtre":"1"
+    },
+    "mise-en-page": {
+        "titre":"DESIGN",
+        "soustitre":"MISE EN PAGE",
+        "domaine":"design",
+        "filtre":"4"
+    },
+    "site-web": {
+        "titre":"WEB DESIGN",
+        "soustitre":"DÉVELOPPEMENT",
+        "domaine":"design",
+        "filtre":"3"
+    },
+    "sound-design": {
+        "titre":"SOUND DESIGN",
+        "soustitre":"TRAITEMENT AUDIO",
+        "domaine":"video",
+        "filtre":"4"
+    },
+    "video-vfx": {
+        "titre":"MONTAGE VIDÉO",
+        "soustitre":"VFX",
+        "domaine":"video",
+        "filtre":"2"
+    },
+    "packaging": {
+        "titre":"PACKAGING",
+        "soustitre":"ÉTIQUETTE",
+        "domaine":"design",
+        "filtre":"2"
+    }
+}

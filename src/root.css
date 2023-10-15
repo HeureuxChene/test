@@ -1,0 +1,418 @@
+@font-face {
+  font-family: UniSansHeavy;
+  src: url('/font/UniSansDemo-HeavyCAPS.otf');
+}
+
+@font-face {
+  font-family: UniSansThin;
+  src: url('/font/UniSansDemo-ThinCAPS.otf');
+}
+
+@font-face {
+  font-family: UniBold;
+  src: url('/font/UniversLTStd-Bold.otf');
+}
+
+@font-face {
+  font-family: UniLight;
+  src: url('/font/UniversLTStd-Light.otf');
+}
+
+@font-face {
+  font-family: UnicaOne;
+  src: url('/font/UnicaOne-Regular.ttf');
+}
+
+:root {
+  --briqueWidth: 390px;
+  --briqueHeight: 540px;
+  --briqueGap: 30px;
+  --briqueNumber: 4;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: #00000000;
+}
+
+html {
+  display: block;
+}
+
+body {
+  display: block;
+  width: 100vw;
+  height: fit-content;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+main{
+  position: relative;
+}
+
+.lazyText {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: transform 0.8s, opacity 0.8s linear;
+}
+
+.lazyTextVisible {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.lazyOpacity {
+  opacity: 0;
+  transition: opacity 0.8s linear;
+}
+
+.lazyHeight {
+  height: 0%;
+  transition: .6s height .2s ease-out;
+}
+
+.lazyWidth {
+  width: 0%;
+  transition: .6s width .2s ease-out;
+}
+
+#parralax {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  perspective: 1px;
+  scrollbar-width: none;
+  z-index: 0;
+}
+
+#parralax::-webkit-scrollbar {
+  display: none;
+}
+
+#topPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  width: 100vw;
+  height: fit-content;
+  background-color: #000;
+  color: #fff;
+  z-index: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: UniSansHeavy;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+h2 {
+  font-family: UniSansThin;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: lighter;
+}
+
+p {
+  font-family: UniLight;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+strong {
+  font-family: UniBold;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.zoneText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.anchor {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 100vw;
+  height: 1px;
+  background-color: #0000;
+}
+
+.fleche {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  fill: 0;
+}
+
+.underlinkObserver {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 1px;
+  z-index: -10;
+}
+
+.triggerMiddle {
+  top: 50%;
+}
+
+.triggerTop {
+  top: 50vh;
+}
+
+.triggerBottom {
+  bottom: 50vh;
+}
+
+#home {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh + 400px);
+  z-index: 2;
+}
+
+.buttonfleche {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 50px;
+
+}
+
+.buttonCarrousel {
+  position: absolute;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  z-index: 2;
+  transition: fill .3s, background-color .3s, opacity .3s, visibility .3s, transform .3s ease-out;
+}
+
+.buttonCarrousel:hover {
+  fill: #fff;
+  background-color: #000;
+}
+
+.buttonCarrouselLeft {
+  left: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-7vw, -50%) rotate(180deg);
+}
+
+.buttonCarrouselRight {
+  right: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(7vw, -50%)
+}
+
+.buttonVisibleLeft {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0vw, -50%) rotate(180deg);
+}
+
+.buttonVisibleRight {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0vw, -50%)
+}
+
+.buttonVisibleRefLeft {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(2vw, -50%) rotate(180deg);
+}
+
+.buttonVisibleRefRight {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-2vw, -50%)
+}
+
+.buttonSection {
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  translate: -50%;
+  rotate: 90deg;
+  animation: buttonSectionAnimation 2s infinite ease-in-out;
+}
+
+@keyframes buttonSectionAnimation {
+  0% {
+    translate: -50%, 0%
+  }
+
+  50% {
+    translate: -50% -25px
+  }
+
+  100% {
+    translate: -50%, 0%
+  }
+}
+
+@media (max-width: 599px) {
+  :root {
+    --briqueWidth: 260px;
+    --briqueHeight: 360px;
+    --briqueGap: 20px;
+    --briqueNumber: 1;
+  }
+
+  .zoneText {
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  #contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 0;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttonCarrousel {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  :root {
+    --briqueWidth: 260px;
+    --briqueHeight: 360px;
+    --briqueGap: 25px;
+    --briqueNumber: 2;
+  }
+
+  .zoneText {
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  #contact {
+    gap: 25px;
+    padding: 50px 0;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+  :root {
+    --briqueWidth: 325px;
+    --briqueHeight: 450px;
+    --briqueGap: 25px;
+    --briqueNumber: 2;
+  }
+}
+
+@media (min-width:1024px) and (max-width: 1443px) {
+  :root {
+    --briqueWidth: 338px;
+    --briqueHeight: 468px;
+    --briqueGap: 30px;
+    --briqueNumber: 2;
+  }
+}
+
+@media (min-width:1444px) and (max-width: 1919px) {
+  :root {
+    --briqueWidth: 364px;
+    --briqueHeight: 504px;
+    --briqueGap: 30px;
+    --briqueNumber: 3;
+  }
+}
+
+@media (min-width:1920px) {
+  :root {
+    --briqueWidth: 390px;
+    --briqueHeight: 540px;
+    --briqueGap: 30px;
+    --briqueNumber: 4;
+  }
+}
